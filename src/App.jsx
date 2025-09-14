@@ -1,8 +1,8 @@
-import TextoDinamico from "./components/TextoDinamico";
+import MensagemUsuario from "./components/MensagemUsuario";
 export default function App() {
   return (
     <main style={{ fontFamily: "sans-serif", padding: 16 }}>
-      <TextoDinamico />
+      <MensagemUsuario ok={false} nome="Carlos" />
     </main>
   );
 }
